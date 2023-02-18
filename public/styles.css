@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(120, 180, 180, 0.7);
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.header{
+    background-color: rgba(115, 115, 115, 0.5);
+    margin-top: 0;
+    color: blue;
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 8px;
+    left: 30px;
+    z-index: 7;
+    text-transform: capitalize;
+}
+input{
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+.btn{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: wheat;
+    font-size: 15px;
+    text-transform: capitalize;
+}
